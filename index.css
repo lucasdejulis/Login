@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "lucas";
+    src: url(/fuentes/Exo2-Italic-VariableFont_wght.ttf);
+}
+
+
+* {
+    font-family: "lucas";
+
+}
+
+
+
+.formulario {
+    text-align: center;
+    border: 5px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+    width: 300PX;
+    background-image: linear-gradient(green, black);
+
+
+}
+
+.password {
+    margin: 10px;
+}
+
+.boton {
+    font-size: 8px;
+    margin: 10px;
+    border-radius: 30px;
+
+
+}
+
+.enviar {
+    margin: 10px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: darkseagreen;
+}
+
+.avatar {
+    overflow: auto;
+    width: 50px;
+    height: 40px;
+    padding: 10px;
+
+    ;
+}
